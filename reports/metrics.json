@@ -1,0 +1,35 @@
+{
+  "best_model": "SVM (RBF)",
+  "results": {
+    "Logistic Regression": {
+      "cv_accuracy": 0.9701,
+      "test_accuracy": 0.9722,
+      "best_params": {
+        "logisticregression__C": 1
+      }
+    },
+    "k-Nearest Neighbors": {
+      "cv_accuracy": 0.9749,
+      "test_accuracy": 0.9639,
+      "best_params": {
+        "kneighborsclassifier__n_neighbors": 5
+      }
+    },
+    "SVM (RBF)": {
+      "cv_accuracy": 0.9833,
+      "test_accuracy": 0.9833,
+      "best_params": {
+        "svc__C": 100,
+        "svc__gamma": 0.01
+      }
+    },
+    "Random Forest": {
+      "cv_accuracy": 0.977,
+      "test_accuracy": 0.9667,
+      "best_params": {
+        "randomforestclassifier__max_depth": null,
+        "randomforestclassifier__n_estimators": 300
+      }
+    }
+  }
+}
